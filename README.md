@@ -32,3 +32,7 @@ The enclosure is designed to be compact and functional. You can find the files i
 
 ### Prototyping
 I am currently using a cardboard prototype to test the physical layout and component fit before moving to a final 3D-printed version.
+
+<img width="738" height="686" alt="Screenshot 2026-04-03 143241" src="https://github.com/user-attachments/assets/04767e2f-86bd-4ea3-b316-0b23a475793b" />
+<img width="1797" height="945" alt="Screenshot 2026-04-03 143431" src="https://github.com/user-attachments/assets/6ba1440d-00d7-4b32-ba66-180504d1063c" />
+
