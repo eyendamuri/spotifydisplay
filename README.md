@@ -2,7 +2,7 @@
 
 A compact physical display that shows the currently playing song from Spotify in real-time. This project connects to the Spotify API to pull live track data and render it on a small external screen.
 
-> **Note:** This project is part of the Stasis Spotify Display starter project. It is currently in the prototype phase.
+> **Note:** This project is part of the Stasis Spotify Display starter project. It is currently in the prototype phase, source: https://stasis.hackclub.com/starter-projects/spotify-display
 
 ---
 
