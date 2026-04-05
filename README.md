@@ -1,85 +1,34 @@
-Spotify Display
+# Spotify Display
 
-A small physical display that shows the currently playing song from Spotify. The project connects to the Spotify API and displays song information on a small screen.
+A compact physical display that shows the currently playing song from Spotify in real-time. This project connects to the Spotify API to pull live track data and render it on a small external screen.
 
-This project is part of the Stasis Spotify Display starter project, and will later be expanded with additional features once the core functionality works.
+> **Note:** This project is part of the Stasis Spotify Display starter project. It is currently in the prototype phase.
 
-Project Overview
+---
 
-The goal of this project is to create a physical device that displays the currently playing Spotify track in real time. The display will show information such as:
+## Project Overview
+The goal is to create a dedicated hardware device that monitors your Spotify activity. The display provides:
+* **Song Title** & **Artist Name**
+* **Playback Status** (Playing/Paused)
+* **Album Artwork** (Planned feature)
 
-Song title
-Artist
-Album artwork (optional later feature)
-Playback status
+---
 
-The device will connect to the Spotify API and update automatically as the music changes.
+## Repository Structure
+The project is organized into two main categories:
 
-Repository Structure
-spotify-display/
-│
-├── cad/
-│   ├── spotify_display_case.step
-│   ├── spotify_display_case.stl
-│
-├── code/
-│   ├── main.ino
-│
-│
-└── README.md
+| Folder | Description |
+| :--- | :--- |
+| `cad/` | 3D design files for the device enclosure (`.step`, `.stl`). |
+| `code/` | Firmware and source code for the Arduino/ESP32 hardware. |
 
-cad/
-Contains the 3D design files for the enclosure.
+---
 
-code/
-Contains the example firmware used to connect to Spotify and drive the display.
+## Hardware & Design
+### 3D Design
+The enclosure is designed to be compact and functional. You can find the files in the `cad/` folder:
+* **STEP file:** For use in CAD software like Fusion 360.
+* **STL file:** Ready for 3D printing.
 
-3D Design
-
-The enclosure was designed in CAD to hold the display and electronics in a compact housing.
-
-Included files:
-
-.STEP file for editable CAD use
-.OBJ file for viewing
-
-The design will initially be built out of cardboard as a prototype to test fit, layout, and usability before creating a more permanent version.
-
-This allows quick iteration and changes without wasting materials.
-
-Code
-
-The code included in this repository is the example code from the Stasis Spotify Display starter project.
-
-Source:
-https://stasis.hackclub.com/starter-projects/spotify-display
-
-The current goal is simply to confirm that:
-
-The device connects to WiFi
-Spotify authentication works
-Song data can be retrieved and displayed
-
-Once the basic functionality works, additional features will be added.
-
-Planned Improvements
-
-Future versions of this project include:
-
-Album artwork display
-Animated UI
-Playback controls (play/pause/skip)
-Better enclosure materials (3D print or laser cut)
-Improved internal mounting for electronics
-Prototype Strategy
-
-Development will follow this process:
-
-Build cardboard enclosure prototype
-Test electronics and screen fit
-Confirm Spotify API functionality
-Iterate on CAD design
-Build improved enclosure
-Credits
-Hack Club Stasis for the starter project and example code
-Spotify Web API for music data
+### Prototyping
+I am currently using a cardboard prototype to test the physical layout and component fit before moving to a final 3D-printed version.
